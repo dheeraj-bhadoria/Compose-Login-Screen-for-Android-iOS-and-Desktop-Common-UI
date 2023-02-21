@@ -31,7 +31,7 @@ kotlin {
 
 compose.desktop {
     application {
-        mainClass = "desktop/src/jvmMain/kotlin/Main.kt"
+        mainClass = "MainKt"
         nativeDistributions {
             targetFormats(TargetFormat.Dmg, TargetFormat.Msi, TargetFormat.Deb)
             packageName = "KMPTemplate"
